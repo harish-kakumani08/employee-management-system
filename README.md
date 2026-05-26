@@ -74,12 +74,6 @@ A Full Stack Employee Management Application built using Java, Spring Boot, MySQ
 
 ---
 
-## Validation Popup
-
-![Validation Popup](screenshots/validation-popup.png)
-
----
-
 # Project Structure
 
 ```text
