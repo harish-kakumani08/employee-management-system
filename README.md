@@ -40,31 +40,37 @@ A Full Stack Employee Management Application built using Java, Spring Boot, MySQ
 
 ## Login Page
 
-![Login Page](screenshots/login-page.png)
+![Login Page](Screenshots/login-page.png)
 
 ---
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/Dashboard.png)
 
 ---
 
 ## Employee Added Table
 
-![Employee Table](screenshots/employee-table.png)
+![Employee Table](Screenshots/employee-table.png)
 
 ---
 
 ## Dark Mode
 
-![Dark Mode](screenshots/dark-mode.png)
+![Dark Mode](Screenshots/dark-mode.png)
 
 ---
 
 ## Toast Notification
 
-![Toast Notification](screenshots/toast-notification.png)
+![Toast Notification](Screenshots/toast-notification.png)
+
+---
+
+## Validation Popup
+
+![Validation Popup](Screenshots/validation-popup.png)
 
 ---
 
