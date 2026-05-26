@@ -62,6 +62,18 @@ A Full Stack Employee Management Application built using Java, Spring Boot, MySQ
 
 ---
 
+## Toast Notification
+
+![Toast Notification](screenshots/toast-notification.png)
+
+---
+
+## Validation Popup
+
+![Validation Popup](screenshots/validation-popup.png)
+
+---
+
 # Project Structure
 
 ```text
