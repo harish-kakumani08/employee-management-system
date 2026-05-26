@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Admin Login</h1>
+
+    <form id="loginForm">
+
+        <input
+                type="text"
+                id="username"
+                placeholder="Enter Username"
+                required
+        >
+
+        <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                required
+        >
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+    <p id="loginMessage"></p>
+
+</div>
+
+<script>
+
+document
+    .getElementById("loginForm")
+    .addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    const username =
+        document.getElementById("username").value;
+
+    const password =
+        document.getElementById("password").value;
+
+    if(
+        username === "admin" &&
+        password === "Harish@123"
+    ) {
+
+        localStorage.setItem("loggedIn", "true");
+
+window.location.href = "index.html";
+
+    } else {
+
+        const message =
+            document.getElementById("loginMessage");
+
+        message.innerText =
+            "Invalid Username or Password!";
+
+        message.className = "error";
+    }
+});
+
+</script>
+
+</body>
+</html>
